@@ -1,3 +1,5 @@
+import nltk
+nltk.download("vader_lexicon")
 from flask import *
 from pickle import load
 from nltk import word_tokenize
